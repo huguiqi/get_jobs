@@ -119,11 +119,12 @@ cd get_jobs
   > 只可微信扫码，请绑定微信账号
   > 需要使用最新版猎聘手机app设置打招呼文本，只要不主动发消息，可以无限制对猎头打招呼，程序默认为该配置。
 
-- 51job([Job.java](src/main/java/job51/Job51.java))【投递有上限，且限制搜索到的岗位数量，没什么活人】
+- 51job([Job51.java](src/main/java/com/getjobs/worker/job51/Job51.java))【投递有上限，且限制搜索到的岗位数量，没什么活人】
 
   > 51job现在已经烂掉了，不建议使用
   > 现在投递一段时间后会出现投递上限
   > 目前的解决方式是投一页暂停10秒，先这么着吧
+  > ✅ 已修复投递显示完成但实际未投递的问题（2026-06-11）
 
 - 智联招聘([ZhiLian.java](src/main/java/zhilian/ZhiLian.java))【投递上限100左右，烂掉了，不要用】
 
